@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana;
+    color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+    color: coral;
+    background: black;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    background: coral;
+}
+
+p {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+    color: cornsilk;
+    background: coral;
+}
+span {
+    color: crimson;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content {
+    background: coral;
+    padding-bottom: 20px;
+}
+
+.input-area {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin: auto;
+    gap: 5px;
+}
+
+input {
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    transition: ease-in-out 0.4s;
+}
+
+input:hover {
+    color: white;
+    background: black;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    transition: ease-in-out 0.4s;
+}
+
+button:hover {
+    color: white;
+    background: black;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    background:white;
+}
+
+
+tr, th {
+    border: 1px solid black;
+    color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.person-row td {
+    border-right: 1px solid black;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
